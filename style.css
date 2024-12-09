@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f5f1; /* Warna ivory lembut */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff; /* Warna putih untuk kontainer */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk navigasi */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #c3a3c6; /* Warna mauve utama */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #a884ab; /* Warna mauve yang lebih gelap */
+    transform: scale(1.05);
+}
+
+/* Gaya judul */
+h1 {
+    text-align: center;
+    color: #8b6b8e; /* Warna mauve gelap */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #c3a3c6; /* Warna header tabel mauve */
+    color: #fff;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background-color: #f8f5f1; /* Warna ivory untuk baris tabel */
+}
+
+/* Tombol */
+.btn {
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-add {
+    background-color: #8b6b8e; /* Warna tombol tambah */
+}
+
+.btn-add:hover {
+    background-color: #735675; /* Warna tombol tambah saat hover */
+}
+
+.btn-delete {
+    background-color: #d9534f; /* Warna tombol hapus */
+}
+
+.btn-delete:hover {
+    background-color: #c9302c;
+}
+
+/* Gaya hover untuk tabel */
+table td a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+table td a[href*="edit"] {
+    background-color: #8b6b8e; /* Warna mauve */
+}
+
+table td a[href*="#"] {
+    background-color: #d9534f; /* Warna merah untuk hapus */
+}
+
+table td a:hover {
+    opacity: 0.8;
+}
+/* Tambahan untuk halaman katalog */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f5f1; /* Warna ivory lembut */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff; /* Warna putih untuk kontainer */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #8b6b8e; /* Warna mauve gelap */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    width: 45%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product h2 {
+    font-size: 18px;
+    color: #8b6b8e;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #8b6b8e; /* Warna tombol */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #735675; /* Warna tombol saat hover */
+}
+
+.btn-back {
+    background-color: #c3a3c6; /* Warna khusus untuk tombol kembali */
+}
+
+.btn-back:hover {
+    background-color: #a884ab; /* Warna lebih gelap untuk tombol kembali saat di-hover */
+}
